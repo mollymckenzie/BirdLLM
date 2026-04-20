@@ -1,5 +1,6 @@
 dataset/*.csv
 dataset/*.zip
 __pycache__/
+**/__pycache__/
 *.pyc
 .env
