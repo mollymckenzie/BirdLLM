@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Left barrel body -->
+  <rect x="3" y="18" width="23" height="30" rx="11" fill="#5a6e8a"/>
+  <!-- Right barrel body -->
+  <rect x="38" y="18" width="23" height="30" rx="11" fill="#5a6e8a"/>
+  <!-- Bridge connecting the two -->
+  <rect x="24" y="26" width="16" height="10" rx="4" fill="#48596e"/>
+  <!-- Left lens rim -->
+  <circle cx="14" cy="35" r="11" fill="#3a4a5e"/>
+  <!-- Left lens glass -->
+  <circle cx="14" cy="35" r="8" fill="#1e3a56"/>
+  <!-- Left lens reflection -->
+  <circle cx="11" cy="32" r="2.5" fill="rgba(255,255,255,0.25)"/>
+  <circle cx="16" cy="37" r="1" fill="rgba(255,255,255,0.12)"/>
+  <!-- Right lens rim -->
+  <circle cx="50" cy="35" r="11" fill="#3a4a5e"/>
+  <!-- Right lens glass -->
+  <circle cx="50" cy="35" r="8" fill="#1e3a56"/>
+  <!-- Right lens reflection -->
+  <circle cx="47" cy="32" r="2.5" fill="rgba(255,255,255,0.25)"/>
+  <circle cx="52" cy="37" r="1" fill="rgba(255,255,255,0.12)"/>
+  <!-- Focus wheel -->
+  <rect x="28" y="24" width="8" height="6" rx="3" fill="#6a7e96"/>
+</svg>
