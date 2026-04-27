@@ -1,2 +1,9 @@
+dataset/*.csv
+dataset/*.zip
+__pycache__/
+**/__pycache__/
+*.pyc
+.env
+
 BirdLLM_dataset.csv
 .DS_Store

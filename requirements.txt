@@ -1,0 +1,7 @@
+flask>=3.0
+openai>=1.0
+pandas>=2.0
+numpy>=1.26
+kaggle>=1.6
+python-dotenv>=1.0
+sklearn>=1.0

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BirdLLM — Bird Observation Predictor</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+</head>
+<body>
+  <div class="app">
+
+    <header class="header">
+      <div class="header-inner">
+        <img src="/assets/yellowwarbler.png" alt="Yellow Warbler" class="header-icon" />
+        <div>
+          <h1 class="header-title">Knoxville Bird Predictor</h1>
+          <p class="header-subtitle">Predict the best time to spot your favorite birds</p>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="chat-container" id="chatContainer">
+
+        <div class="message bot-message intro-message">
+          <div class="message-icon"><img src="/assets/yellowwarbler.png" alt="warbler" /></div>
+          <div class="message-body">
+            <p>Hello! Ask me when the best time is to observe a bird species.</p>
+            <p class="examples-label">Try asking:</p>
+            <ul class="examples">
+              <li class="example-pill" onclick="fillExample(this)">When is the best time to see a Robin in Knoxville?</li>
+              <li class="example-pill" onclick="fillExample(this)">What months are Sandhill Cranes spotted most?</li>
+              <li class="example-pill" onclick="fillExample(this)">When do hummingbirds peak in Tennessee?</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </main>
+
+    <footer class="input-area">
+      <form class="input-form" id="inputForm" onsubmit="handleSubmit(event)">
+        <input
+          type="text"
+          id="userInput"
+          class="input-box"
+          placeholder="Ask about a bird species and location..."
+          autocomplete="off"
+          autofocus
+        />
+        <button type="submit" class="send-btn" id="sendBtn">
+          <span class="send-icon">➤</span>
+        </button>
+      </form>
+    </footer>
+
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
