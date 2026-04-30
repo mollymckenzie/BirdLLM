@@ -567,6 +567,7 @@ def run_pipeline(
     lon: float = None,
     radius_deg: float = 1.0,
     dataset_path=None,
+    data = None
 ) -> dict:
     """
     Full preprocessing pipeline.
@@ -580,7 +581,7 @@ def run_pipeline(
         species_found, total_records, weekly_frequencies,
         peak_weeks, yearly_data, location_note, error (if any)
     """
-    df = load_dataset(dataset_path)
+    df = data if data is not None else load_dataset(dataset_path)
 
     # --- Location filter ---
     location_note = None
